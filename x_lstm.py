@@ -11,8 +11,8 @@ et al. (2025): older inputs are processed at a coarser temporal resolution,
 recent inputs are processed at a finer temporal resolution, and the resulting
 packed sequence is passed through a single shared xLSTM backbone.
 
-The highest-frequency output is the primary prediction. Lower-frequency outputs
-are returned only for compatibility with NeuralHydrology's multi-frequency
+The higher-frequency output is the primary prediction. Lower-frequency output
+is returned only for compatibility with NeuralHydrology's multi-frequency
 output interface.
 
 Reference
