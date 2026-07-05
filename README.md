@@ -63,4 +63,4 @@ config_mfxlstm_example.yml
 
 This implementation is not part of the official NeuralHydrology release. It is provided as a patch-based implementation for reproducing the MF-xLSTM experiments in the accompanying manuscript.
 
-The model uses NeuralHydrology's standard multi-frequency input and output workflow. In a daily-hourly setup, it can be trained and evaluated in the same general way as NeuralHydrology's built-in multi-frequency LSTM (MTS-LSTM) model.
+The model uses NeuralHydrology's standard multi-frequency input and output workflow. In a daily-hourly setup, it can be trained and evaluated in the same general way as NeuralHydrology's built-in multi-timescale LSTM (MTS-LSTM) model.
