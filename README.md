@@ -1,5 +1,5 @@
 # MF-xLSTM
-MF-xLSTM implementation for NeuralHydrology.
+Multi-frequency xLSTM implementation for NeuralHydrology.
 
 The code is provided as a lightweight patch for [NeuralHydrology](https://github.com/neuralhydrology/neuralhydrology). It replaces NeuralHydrology's original `x_lstm.py` implementation so that `x_lstm` can be used with multi-frequency inputs, following the same general training and output workflow as NeuralHydrology's built-in MTS-LSTM models.
 
